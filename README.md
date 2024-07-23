@@ -4,3 +4,10 @@ This repo contains notebooks for running GNSS-A processing in the EarthScope Geo
 
 ### Usage
 
+go to this url
+
+https://geolab.earthscope.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FEarthScope%2Fseafloor_geodesy_notebooks.git&urlpath=lab%2Ftree%2Fseafloor_geodesy_notebooks.git%2Fnotebooks%2F&branch=main
+
+and select other, and paste the image
+
+public.ecr.aws/earthscope-dev/seafloor-geodesy:draft-deliverable-f77319eb
