@@ -10,4 +10,4 @@ https://geolab.earthscope.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgi
 
 and select other, and paste the image
 
-public.ecr.aws/earthscope-dev/seafloor-geodesy:draft-deliverable-f77319eb
+public.ecr.aws/earthscope-dev/seafloor-geodesy:draft-deliverable-0c362fc6
