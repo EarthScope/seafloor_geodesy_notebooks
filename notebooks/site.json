@@ -1,0 +1,139 @@
+{
+    "names": [
+        "AAAA"
+    ],
+    "networks": [
+        "aleutian"
+    ],
+    "timeOrigin": "1900-01-01T00:00:00",
+    "arrayCenter": {},
+    "localGeoidHeight": 0,
+    "referenceFrames": [
+        {
+            "name": "blah"
+        }
+    ],
+    "benchmarks": [
+        {
+            "dropPointLocation": {
+                "latitude": 0,
+                "longitude": 0,
+                "elevation": 0
+            },
+            "aPrioriLocations": {
+                "latitude": 0,
+                "longitude": 0,
+                "elevation": 0
+            },
+            "name": "blah",
+            "benchmarkID": "",
+            "transponders": [
+                {
+                    "uid": "",
+                    "model": "",
+                    "serialNumber": "",
+                    "batteryCapacity": "",
+                    "address": "",
+                    "tat": "",
+                    "deploymentCampaignName": "",
+                    "recoveryCampaignName": ""
+                }
+            ]
+        }
+    ],
+    "campaigns": [
+        {
+            "type": "",
+            "launchVesselName": "",
+            "recoveryVesselName": "",
+            "principalInvestigator": "",
+            "cruiseName": "",
+            "technicianName": "",
+            "technicianContact": "",
+            "name": "__",
+            "surveys": []
+        },
+        {
+            "type": "",
+            "launchVesselName": "",
+            "recoveryVesselName": "",
+            "principalInvestigator": "",
+            "cruiseName": "",
+            "technicianName": "",
+            "technicianContact": "",
+            "name": "blah__",
+            "surveys": [
+                {
+                    "id": "blah___1",
+                    "type": "",
+                    "vesselName": "",
+                    "benchmarkIDs": []
+                }
+            ]
+        }
+    ],
+    "surveyVessels": [
+        {
+            "type": "",
+            "name": "",
+            "model": "",
+            "serialNumber": "",
+            "surveyIDs": [
+                "blah___1"
+            ],
+            "insPayloads": [
+                {
+                    "type": "",
+                    "model": "",
+                    "serialNumber": "",
+                    "surveyIDs": [
+                        "blah___1"
+                    ]
+                }
+            ],
+            "gnssReceivers": [
+                {
+                    "type": "",
+                    "model": "",
+                    "serialNumber": "",
+                    "firmwareVersion": "",
+                    "surveyIDs": [
+                        "blah___1"
+                    ]
+                }
+            ],
+            "gnssAntennas": [
+                {
+                    "type": "",
+                    "model": "",
+                    "serialNumber": "",
+                    "radomeSerialNumber": "",
+                    "surveyIDs": [
+                        "blah___1"
+                    ]
+                }
+            ],
+            "acousticTransducer": [
+                {
+                    "type": "",
+                    "serialNumber": "",
+                    "frequency": "",
+                    "surveyIDs": [
+                        "blah___1",
+                        "blah___2"
+                    ]
+                }
+            ],
+            "atdOffsets": [
+                {
+                    "x": "",
+                    "y": "",
+                    "z": "",
+                    "surveyIDs": [
+                        "acousticTransciever\""
+                    ]
+                }
+            ]
+        }
+    ]
+}
