@@ -12,7 +12,68 @@
     "longitude": -158.4692,
     "elevation": 10.3
   },
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "2022_A_1049",
+      "type": "measure",
+      "vesselCode": "1049",
+      "start": "2022-07-17T13:42:19.870000",
+      "end": "2022-07-24T11:18:33.870000",
+      "principalInvestigator": null,
+      "launchVesselName": null,
+      "recoveryVesselName": null,
+      "cruiseName": null,
+      "technicianName": null,
+      "technicianContact": null,
+      "surveys": [
+        {
+          "id": "2022_A_1049_1",
+          "type": "move around",
+          "benchmarkIDs": [],
+          "start": "2022-07-17T13:42:19.870000",
+          "end": "2022-07-18T11:33:33.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1049_2",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2022-07-18T13:42:19.870000",
+          "end": "2022-07-21T11:18:33.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1049_3",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2022-07-21T14:42:19.870000",
+          "end": "2022-07-22T03:18:33.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1049_4",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2022-07-22T05:42:19.870000",
+          "end": "2022-07-22T20:18:33.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1049_5",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2022-07-23T00:42:19.870000",
+          "end": "2022-07-24T11:18:33.870000",
+          "notes": "Visual identification",
+          "commands": null
+        }
+      ]
+    }
+  ],
   "benchmarks": [
     {
       "name": "IVB1_1",
