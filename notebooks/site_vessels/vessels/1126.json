@@ -1,0 +1,58 @@
+{
+  "name": "1126",
+  "type": "waveglider",
+  "model": "sv3",
+  "serialNumber": null,
+  "start": "2023-02-01T00:00:00",
+  "end": null,
+  "imuSensors": [],
+  "atdOffsets": [
+    {
+      "serialNumber": "641-0654",
+      "x": 0.0,
+      "y": 0.00053,
+      "z": 0.92813
+    }
+  ],
+  "gnssAntennas": [
+    {
+      "type": "novatel",
+      "serialNumber": "NMLM22110020V",
+      "start": "2023-02-28T00:00:00",
+      "order": "primary",
+      "model": "GNSS-802L",
+      "radomeSerialNumber": null,
+      "end": null
+    },
+    {
+      "type": "novatel",
+      "serialNumber": "NMLM22090012Z",
+      "start": "2023-02-28T00:00:00",
+      "order": "secondary",
+      "model": "GNSS-802L",
+      "radomeSerialNumber": null,
+      "end": null
+    }
+  ],
+  "gnssReceivers": [],
+  "acousticTransducers": [
+    {
+      "type": "641-0654",
+      "serialNumber": "0",
+      "frequency": "MF",
+      "start": "2023-02-28T00:00:00",
+      "end": null
+    }
+  ],
+  "acousticTransceivers": [
+    {
+      "type": "null",
+      "serialNumber": "0",
+      "frequency": "MF",
+      "start": "2023-02-28T00:00:00",
+      "triggerDelay": 0.13,
+      "delayIncludedInTWTT": true,
+      "end": null
+    }
+  ]
+}

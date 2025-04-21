@@ -1,0 +1,271 @@
+{
+  "names": [
+    "NBR1"
+  ],
+  "networks": [
+    "cascadia-gorda"
+  ],
+  "timeOrigin": "2023-09-01T00:00:00",
+  "localGeoidHeight": 0.0,
+  "arrayCenter": {
+    "latitude": null,
+    "longitude": null,
+    "elevation": null
+  },
+  "campaigns": [
+    {
+      "name": "2024_A_1126",
+      "type": "measure",
+      "vesselCode": "1126",
+      "start": "2024-08-25T18:59:00",
+      "end": "2024-09-13T17:04:00",
+      "principalInvestigator": "Benjamin Brooks",
+      "launchVesselName": "R/V Coral Sea",
+      "recoveryVesselName": "R/V Coral Sea",
+      "cruiseName": "Eureka_24",
+      "technicianName": null,
+      "technicianContact": null,
+      "surveys": [
+        {
+          "id": "2024_A_1126_NBR1_1",
+          "type": "circle drive",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-08-26T04:59:00",
+          "end": "2024-08-26T15:22:00",
+          "notes": null,
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_2",
+          "type": "NBR1_Foster_bespoke",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-08-27T20:50:00",
+          "end": "2024-08-28T03:30:00",
+          "notes": null,
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_3",
+          "type": "off center",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-08-30T00:38:00",
+          "end": "2024-08-30T04:40:00",
+          "notes": null,
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_4",
+          "type": "circle",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-08-31T15:20:00",
+          "end": "2024-09-01T09:47:00",
+          "notes": null,
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_5",
+          "type": "center",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-09-01T14:35:00",
+          "end": "2024-09-05T01:29:00",
+          "notes": "incorrect center postion, with currents pushing vehicle off position",
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_6",
+          "type": "circle",
+          "benchmarkIDs": [
+            "NBR1-3"
+          ],
+          "start": "2024-09-05T02:09:00",
+          "end": "2024-09-05T14:05:00",
+          "notes": "circle 5211",
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_7",
+          "type": "center",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-09-05T18:13:00",
+          "end": "2024-09-05T18:40:00",
+          "notes": "TEST: Using MRS tracking (Range Protocol 0), NO 130ms TRIGGER OFFSET",
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_8",
+          "type": "center",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-09-05T20:00:00",
+          "end": "2024-09-05T22:35:00",
+          "notes": "incorrect center position",
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_9",
+          "type": "center",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-09-05T23:00:00",
+          "end": "2024-09-11T18:01:00",
+          "notes": "corrected center position",
+          "commands": null
+        },
+        {
+          "id": "2024_A_1126_NBR1_10",
+          "type": "GARPOS Spoke",
+          "benchmarkIDs": [
+            "NBR1-1",
+            "NBR1-2",
+            "NBR1-3"
+          ],
+          "start": "2024-09-11T18:02:00",
+          "end": "2024-09-13T02:10:00",
+          "notes": "Custom GARPOS NBR1 spoke pattern",
+          "commands": null
+        }
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "name": "NBR1-1",
+      "benchmarkID": "USGS001",
+      "aPrioriLocation": {
+        "latitude": 42.14325481,
+        "longitude": -125.1113693,
+        "elevation": -1831.69
+      },
+      "start": "2023-09-08T22:23:47",
+      "end": null,
+      "dropPointLocation": {
+        "latitude": 42.143996,
+        "longitude": -125.111553,
+        "elevation": -1799.0
+      },
+      "transponders": [
+        {
+          "address": "5209",
+          "tat": [
+            {
+              "value": 200.0,
+              "timeIntervals": []
+            }
+          ],
+          "start": "2023-09-08T22:23:47",
+          "end": null,
+          "uid": "00788F",
+          "model": "8306-9923",
+          "serialNumber": "344976-001",
+          "batteryCapacity": "504.0Ah",
+          "notes": null,
+          "batteryVoltage": [],
+          "extraSensors": []
+        }
+      ]
+    },
+    {
+      "name": "NBR1-2",
+      "benchmarkID": "USGS002",
+      "aPrioriLocation": {
+        "latitude": 42.12436027,
+        "longitude": -125.12612096,
+        "elevation": -1867.926
+      },
+      "start": "2021-09-08T20:19:26",
+      "end": null,
+      "dropPointLocation": {
+        "latitude": 42.124204,
+        "longitude": -125.126029,
+        "elevation": -1832.0
+      },
+      "transponders": [
+        {
+          "address": "5210",
+          "tat": [
+            {
+              "value": 320.0,
+              "timeIntervals": []
+            }
+          ],
+          "start": "2021-09-08T20:19:00",
+          "end": null,
+          "uid": "00788A",
+          "model": "8306-9912",
+          "serialNumber": "344216-001",
+          "batteryCapacity": "504.0Ah",
+          "notes": null,
+          "batteryVoltage": [],
+          "extraSensors": []
+        }
+      ]
+    },
+    {
+      "name": "NBR1-3",
+      "benchmarkID": "USGS003",
+      "aPrioriLocation": {
+        "latitude": 42.12574326700116,
+        "longitude": -125.09562600347293,
+        "elevation": -1770.5114453226408
+      },
+      "start": "2024-08-25T14:16:00",
+      "end": null,
+      "dropPointLocation": {
+        "latitude": 42.124761,
+        "longitude": -125.095768,
+        "elevation": -1769.0
+      },
+      "transponders": [
+        {
+          "address": "5211",
+          "tat": [
+            {
+              "value": 440.0,
+              "timeIntervals": []
+            }
+          ],
+          "start": "2024-08-25T14:16:00",
+          "end": null,
+          "uid": "007888",
+          "model": "8306-9912",
+          "serialNumber": "344216-002",
+          "batteryCapacity": "504.0Ah",
+          "notes": null,
+          "batteryVoltage": [],
+          "extraSensors": []
+        }
+      ]
+    }
+  ],
+  "referenceFrames": []
+}

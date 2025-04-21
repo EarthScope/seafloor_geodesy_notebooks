@@ -1,0 +1,21 @@
+{
+  "name": "SFG1",
+  "type": "waveglider",
+  "model": "SV2",
+  "serialNumber": null,
+  "start": null,
+  "end": null,
+  "imuSensors": [],
+  "atdOffsets": [
+    {
+      "serialNumber": "",
+      "x": 0.575,
+      "y": 0.0,
+      "z": -0.844
+    }
+  ],
+  "gnssAntennas": [],
+  "gnssReceivers": [],
+  "acousticTransducers": [],
+  "acousticTransceivers": []
+}

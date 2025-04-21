@@ -1,0 +1,249 @@
+{
+  "names": [
+    "GCC1"
+  ],
+  "networks": [
+    "cascadia-gorda"
+  ],
+  "timeOrigin": "2021-10-08T00:00:00",
+  "localGeoidHeight": 0.0,
+  "arrayCenter": {
+    "latitude": null,
+    "longitude": null,
+    "elevation": null
+  },
+  "campaigns": [
+    {
+      "name": "2024_A_1126",
+      "type": "measure",
+      "vesselCode": "1126",
+      "start": "2024-09-15T13:59:00",
+      "end": "2024-09-19T23:59:00",
+      "principalInvestigator": "Benjamin Brooks",
+      "launchVesselName": "R/V Coral Sea",
+      "recoveryVesselName": "R/V Coral Sea",
+      "cruiseName": "Eureka_24",
+      "technicianName": null,
+      "technicianContact": null,
+      "surveys": [
+        {
+          "id": "2024_A_1126_GCC1_1",
+          "type": "center",
+          "benchmarkIDs": [
+            "GCC1-1",
+            "GCC1-2",
+            "GCC1-3"
+          ],
+          "start": "2024-09-17T01:00:00",
+          "end": "2024-09-19T23:59:00",
+          "notes": null,
+          "commands": null
+        }
+      ]
+    },
+    {
+      "name": "2022_A_1065",
+      "type": "measure",
+      "vesselCode": "1065",
+      "start": "2022-05-11T13:29:24.870000",
+      "end": "2022-05-19T07:05:16.870000",
+      "principalInvestigator": null,
+      "launchVesselName": null,
+      "recoveryVesselName": null,
+      "cruiseName": null,
+      "technicianName": null,
+      "technicianContact": null,
+      "surveys": [
+        {
+          "id": "2022_A_1065_1",
+          "type": "circle drive",
+          "benchmarkIDs": [],
+          "start": "2022-05-11T14:44:24.870000",
+          "end": "2022-05-12T02:50:16.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1065_2",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2022-05-12T05:29:24.870000",
+          "end": "2022-05-12T16:35:16.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1065_3",
+          "type": "circle drive",
+          "benchmarkIDs": [],
+          "start": "2022-05-12T16:59:24.870000",
+          "end": "2022-05-13T10:35:16.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2022_A_1065_4",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2022-05-13T10:59:24.870000",
+          "end": "2022-05-19T07:05:16.870000",
+          "notes": "Visual identification",
+          "commands": null
+        }
+      ]
+    },
+    {
+      "name": "2023_A_1063",
+      "type": "measure",
+      "vesselCode": "1063",
+      "start": "2023-09-14T15:51:48.870000",
+      "end": "2023-09-24T17:58:31.870000",
+      "principalInvestigator": null,
+      "launchVesselName": null,
+      "recoveryVesselName": null,
+      "cruiseName": null,
+      "technicianName": null,
+      "technicianContact": null,
+      "surveys": [
+        {
+          "id": "2023_A_1063_1",
+          "type": "circle drive",
+          "benchmarkIDs": [],
+          "start": "2023-09-14T15:51:48.870000",
+          "end": "2023-09-15T09:28:31.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2023_A_1063_2",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2023-09-15T09:28:48.870000",
+          "end": "2023-09-20T17:28:31.870000",
+          "notes": "Visual identification",
+          "commands": null
+        },
+        {
+          "id": "2023_A_1063_3",
+          "type": "center",
+          "benchmarkIDs": [],
+          "start": "2023-09-21T21:15:48.870000",
+          "end": "2023-09-24T17:58:31.870000",
+          "notes": "Visual identification",
+          "commands": null
+        }
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "name": "GCC1-1",
+      "benchmarkID": "MPL032",
+      "aPrioriLocation": {
+        "latitude": 41.67524683,
+        "longitude": -125.5035743,
+        "elevation": -3095.1174
+      },
+      "start": "2021-10-09T03:30:00",
+      "end": null,
+      "dropPointLocation": {
+        "latitude": 41.6723,
+        "longitude": -125.5014,
+        "elevation": -3094.0
+      },
+      "transponders": [
+        {
+          "address": "5209",
+          "tat": [
+            {
+              "value": 200.0,
+              "timeIntervals": []
+            }
+          ],
+          "start": "2021-10-09T03:30:00",
+          "end": null,
+          "uid": "0057A5",
+          "model": "8306-9908",
+          "serialNumber": "315696-006",
+          "batteryCapacity": "180.0Ah",
+          "notes": null,
+          "batteryVoltage": [],
+          "extraSensors": []
+        }
+      ]
+    },
+    {
+      "name": "GCC1-2",
+      "benchmarkID": "MPL036",
+      "aPrioriLocation": {
+        "latitude": 41.63224768,
+        "longitude": -125.5297723,
+        "elevation": -3096.5455
+      },
+      "start": "2021-10-09T12:00:00",
+      "end": null,
+      "dropPointLocation": {
+        "latitude": 41.6336,
+        "longitude": -125.527,
+        "elevation": -3094.0
+      },
+      "transponders": [
+        {
+          "address": "5210",
+          "tat": [
+            {
+              "value": 320.0,
+              "timeIntervals": []
+            }
+          ],
+          "start": "2021-10-09T12:00:00",
+          "end": null,
+          "uid": "0060A7",
+          "model": "8306-9912",
+          "serialNumber": "325615-5",
+          "batteryCapacity": "504.0Ah",
+          "notes": null,
+          "batteryVoltage": [],
+          "extraSensors": []
+        }
+      ]
+    },
+    {
+      "name": "GCC1-3",
+      "benchmarkID": "MPL034",
+      "aPrioriLocation": {
+        "latitude": 41.64104767,
+        "longitude": -125.4725878,
+        "elevation": -3095.7075
+      },
+      "start": "2021-10-09T00:08:00",
+      "end": null,
+      "dropPointLocation": {
+        "latitude": 41.6358,
+        "longitude": -125.4697,
+        "elevation": -3094.0
+      },
+      "transponders": [
+        {
+          "address": "5211",
+          "tat": [
+            {
+              "value": 440.0,
+              "timeIntervals": []
+            }
+          ],
+          "start": "2021-10-09T00:08:00",
+          "end": null,
+          "uid": "00612C",
+          "model": "8306-9912",
+          "serialNumber": "325615-3",
+          "batteryCapacity": "504.0Ah",
+          "notes": null,
+          "batteryVoltage": [],
+          "extraSensors": []
+        }
+      ]
+    }
+  ],
+  "referenceFrames": []
+}
