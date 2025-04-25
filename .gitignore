@@ -1,5 +1,13 @@
 notebooks/data
 nov770_files
 pride_outputs
-rinex_files
+rinex files/
 notebooks/sso_tokens.json
+rinex/
+GCC1_surveys
+NCC1_surveys
+untracked_notebooks
+plots
+.DS_Store
+sso_tokens.json
+site_vessels
